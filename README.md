@@ -60,13 +60,13 @@ Cloud based resources are connected to on-premises infrastructure. Integrates cl
 
 5. **On-premises**:
 Private cloud deployment using virtualization and resource managment tools. Deployed on premise.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/7.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/7.png" alt = "Output" width = "200" />
 
 
 # Intro to AWS
 On demand access to over 175 global services which includes the following.
 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/8.png" alt = "Output" width = "200" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/8.png" alt = "Output" width = "600" />
 
 AWS provides the ability to try and experiment without having to deal wiht the collateral damage of failed experiments.
 It also provides access to high-end services that would otherwise be expensive like ML, IoT, analytics, and security services.
