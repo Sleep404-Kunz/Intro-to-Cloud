@@ -75,7 +75,7 @@ It also provides access to high-end services that would otherwise be expensive l
 
 ## AWS Global Infrastructure
 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/10.png" alt = "Output" width = "300" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/10.png" alt = "Output" width = "150" />
 
 *Region:* Physical location around the world where data centers are clustered together. Consists of multiple isolated and physically separate Availability Zones within a geographic area. 
 *Availability zones:* Area within a Region that can harbour one or more data centers. Houses the hardware devices that AWS offers. Interconnected with high-bandwidth, low-latency networking. 
@@ -84,15 +84,15 @@ It also provides access to high-end services that would otherwise be expensive l
 When building architecture in cloud, plan for failure to resolve any issues that might occur. 
 - Storage failures: Files stored in Amazon S3 have redundant copies in all availability zones in the region.
 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/11.png" alt = "Output" width = "300" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/11.png" alt = "Output" width = "150" />
 
 - Compute failures: It is best practice to spread the computing resources across multiple Availability zones so that issues in one zone does not affect the availability of your computing resources.
 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/12.png" alt = "Output" width = "300" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/12.png" alt = "Output" width = "150" />
 
 - Database failures: Multi-AZ deployment for Databases so that there always is a primary database in the Availability zone.
 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "300" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "150" />
 
 The global infrastructure also allows for redundancy and countermeasures at  aglobal level by scaling the resources in the backup region to match the production region to some margin.  
 Following are some benefits of the AWS global infrastructure:
