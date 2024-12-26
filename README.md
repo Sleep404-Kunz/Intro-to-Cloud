@@ -21,7 +21,8 @@
 Modern computing is based on the client-server model.
 **Client**: Web browser or desktop application that a user interacts with to make requests to servers.
 **Servers**: Services such as Amazon Elastic Compute Cloud (EC2). 
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/1.png" alt = "Output" width = "700" />
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/1.png" alt = "Output" width = "300" />
 
 ## Benefits of Cloud computing
 
@@ -36,30 +37,30 @@ Modern computing is based on the client-server model.
 
 1. **Infrastructure as a service (IaaS)**
 Provides access to networking features, computers and data storage. Provides the highest level of flexibility and managment control over your IT resources.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/2.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/2.png" alt = "Output" width = "200" />
 
 2. **Platform as a service (PaaS)**
 Removes the managment of underlying infrastructure (Hardware and OS). Allows focus on deployment and managment of applications.
 No need to worry about procurment, capacity planning, software maintenance and patching.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/3.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/3.png" alt = "Output" width = "200" />
 
 4. **Software as a service (SaaS)**
 Completed software product run bu the service provider. No need to think about how the service is maintained or how the underlying infrastructure is mangaged.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/4.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/4.png" alt = "Output" width = "200" />
 
 ## Deployment strategies:
 Choice of deplyment depends on unique business needs such as infrastructure, data storage, access requirements. 
 1. **Cloud**:
 Build new or migrate existing applications to the cloud. Build applications on low-level infrastructure that requires managment or build using higher level services to reduce the manamgnet, architecting and scaling requirements.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/5.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/5.png" alt = "Output" width = "200" />
 
 3. **Hybrid**:
 Cloud based resources are connected to on-premises infrastructure. Integrates cloud resources with legacy IT applications. Used when legacy application are maintained on-premise of required by regulations.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/6.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/6.png" alt = "Output" width = "200" />
 
 5. **On-premises**:
 Private cloud deployment using virtualization and resource managment tools. Deployed on premise.
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/7.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/7.png" alt = "Output" width = "200" />
 
 
 # Intro to AWS
