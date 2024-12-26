@@ -70,8 +70,29 @@ On demand access to over 175 global services which includes the following.
 
 AWS provides the ability to try and experiment without having to deal wiht the collateral damage of failed experiments.
 It also provides access to high-end services that would otherwise be expensive like ML, IoT, analytics, and security services.
-![image](https://github.com/user-attachments/assets/4201695f-53f4-4232-9952-0117c4fa2b9e)
 
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/9.png" alt = "Output" width = "300" />
+
+## AWS Global Infrastructure
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/10.png" alt = "Output" width = "300" />
+
+*Region:* Physical location around the world where data centers are clustered together. Consists of multiple isolated and physically separate Availability Zones within a geographic area. 
+*Availability zones:* Area within a Region that can harbour one or more data centers. Houses the hardware devices that AWS offers. Interconnected with high-bandwidth, low-latency networking. 
+*Edge Location:* Cache copies of your content for faster delivery to users at any location. Connected to AWS regions throug the AWS network across the globe. Over 200 locations across 47 coutries. 
+
+When building architecture in cloud, plan for failure to resolve any issues that might occur. 
+- Storage failures
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/11.png" alt = "Output" width = "600" />
+Files stored in Amazon S3 have redundant copies in all availability zones in the region.
+
+- Compute failures
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/12.png" alt = "Output" width = "600" />
+It is best practice to spread the computing resources across multiple Availability zones so that issues in one zone does not affect the availability of your computing resources.
+
+- Database failures
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "600" />
+Multi-AZ deployment for Databases so that there always is a primary database in the Availability zone.
 
 # AWS Core Services
 # Cloud Careers
