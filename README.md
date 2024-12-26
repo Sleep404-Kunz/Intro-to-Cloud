@@ -94,5 +94,49 @@ When building architecture in cloud, plan for failure to resolve any issues that
 
 <img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "300" />
 
+The global infrastructure also allows for redundancy and countermeasures at  aglobal level by scaling the resources in the backup region to match the production region to some margin.  
+Following are some benefits of the AWS global infrastructure:
+*Performance*: High performing, low latency, unlimited capacidy and high availability.
+*Availability*: Availability zones provde physical redundancy.
+*Security*: 24/7 monitoring to ensure CIA. Encryption, relocation and retention handled by the customers.
+*Reliability*: Region, Networking links, load balancing routers and firmware for redundancy and reliability.
+*Scalability*: Flexible to take advantage of infinite scalablity within minutes.
+*Low cost*: Extensive data center footprint with numerous customers lowers TCO.
+
+## AWS shared responsibility model
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/14.png" alt = "Output" width = "300" />
+
+- ***Customers***:Security ***IN*** the cloud.
+
+Responsible for everything that is created and put in the AWS cloud environment. Covers Compute storage and networking. Customer has complete control over their content and access managment.
+
+- ***AWS***: Security ***OF*** the cloud.
+
+Physical security, Hardware and Software infrastructure, Network infrastructure, and Virtualization infrastructure.
+
+## AWS Well-Architected Framework
+Designed to help build the most secure, high-performing, resilient, efficient, and cost-effective cloud infrastructure. Can be scaled with need.
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/15.png" alt = "Output" width = "300" />
+- **Operational Excellence****: Ability to run and monitor systems to deliver business value and continually improve supporting processes and procedures.
+- ***Security***: Ability to protect information, systems, and assets through risk assesments and mitigation strategies.
+- ***Reliability***: Ability to recover from disruptions, dynamic load balancing, mitigting disruptions like network issues or misconfigurations.
+- ***Performance Efficeincy***: Ability to use computing resources efficiently.
+- ***Cost Optimization***: Minimizing cost while improving delivery on business value. 
+
+Use the AWS Well-Architected tool to compare and review with best practices.
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/16.png" alt = "Output" width = "400" />
+
+## TCO
+Financial metric to estimate and compare direct and indirect costs of product or services. Includes cost of :
+- Procurement
+- Management
+- Maintenance
+- Decommissioning of hardware resources
+
+Use the AWS pricing calculator to generate a comprehensive TCO report. 
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/17.png" alt = "Output" width = "400" />
 # AWS Core Services
 # Cloud Careers
