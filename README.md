@@ -82,17 +82,17 @@ It also provides access to high-end services that would otherwise be expensive l
 *Edge Location:* Cache copies of your content for faster delivery to users at any location. Connected to AWS regions throug the AWS network across the globe. Over 200 locations across 47 coutries. 
 
 When building architecture in cloud, plan for failure to resolve any issues that might occur. 
-- Storage failures
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/11.png" alt = "Output" width = "600" />
-Files stored in Amazon S3 have redundant copies in all availability zones in the region.
+- Storage failures: Files stored in Amazon S3 have redundant copies in all availability zones in the region.
 
-- Compute failures
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/12.png" alt = "Output" width = "600" />
-It is best practice to spread the computing resources across multiple Availability zones so that issues in one zone does not affect the availability of your computing resources.
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/11.png" alt = "Output" width = "300" />
 
-- Database failures
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "600" />
-Multi-AZ deployment for Databases so that there always is a primary database in the Availability zone.
+- Compute failures: It is best practice to spread the computing resources across multiple Availability zones so that issues in one zone does not affect the availability of your computing resources.
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/12.png" alt = "Output" width = "300" />
+
+- Database failures: Multi-AZ deployment for Databases so that there always is a primary database in the Availability zone.
+
+<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/13.png" alt = "Output" width = "300" />
 
 # AWS Core Services
 # Cloud Careers
