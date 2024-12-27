@@ -149,25 +149,5 @@ AWS has 3 types of services:
 2. **Fully managed services**: Automated infrastructure tasks. Does not grant virtual access to the underlying operating system and servers. Resposnible for scaling and building high availability.
 3. **Serverless services**: AWS handles infrastructre tasks. Automatic scaling and built-in high availabiity and pay-for-value model.
 
-## - Amazon VPC (Virtual Private Cloud) 
-- Launch AWS resources in a logically isolated virtual network. Multiple layers of security to control acceess to EC2 instances in each subnet.
-- Create public facing subnet web servers that have access to the internet.
-- Create private facing subnet for backend systems, such as databases and application servers.
 
-VPC can increase and monitor the security of the VPC on demand, allowing creation nad termination of data centers when needed. VPC provides the following benefits:
-- Advanced security features on inbound and outbound trafic at the instance and subnet level.
-- Less set up, managment and validation needed.
-- Control over Virtual networking environment. (IP address range, subnets, routing tables.)
-
-<img src= "https://github.com/Sleep404-Kunz/Intro-to-Cloud/blob/main/18.png" alt = "Output" width = "400" />
-
-*How to use Amazon VPC:*
-- Host a simple website.
-- Host Mult-tier web applications and enforce access and security restrictions between web servers, application servers and databases.
-- Periodic back up of critical data from data center to EC2 instances for backup data recovery. Or import VM images to EC2 during disaster recovery period.
-- Move corporate applications to cloud or lauch additional web servers. Or add compute capacity to network.
-
-***When deleting a VPC, first terminate any EC2 or RDS instances provisioned in the VPC.***
-
-VPC at basic level is free but additional features such as NAT gateway and elastic IPs have associated charges. 
 # Cloud Careers
